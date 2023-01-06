@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Github</title>
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./images/question.png" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- page left part -->
+	<div class="result_card card">
+            <div class="user_card">
+                <fieldset class="fieldset">
+                    <legend class="header">Details</legend>
+                    <div class = "float-parent-element">
+                    	<div class="user_photo float-child-element"></div>
+                    	<div class="user_name_blog_address float-child-element"></div>
+                    </div>
+                    <div class="user_bio float-parent-element"></div>
+                </fieldset>
+            </div>
+        </div>
+        <!-- page right part -->
+        <div class="form_card card">
+        <center>
+            <form class="form_card_content">
+                <fieldset class="fieldset">
+                    <legend class="header">Log in</legend>
+                    <label for="name">username</label>
+                    <input type="text" id="username" maxlength="255" pattern="[A-Za-z ]+" required>
+                    <br>
+                    <span id="error"></span>
+                    <br><br>
+                    <button class="submit button">Submit</button><br>
+                    <button class="clear button">Clear Storage</button><br>
+                </fieldset>
+            </form>
+            </center>
+            <div class="message"></div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
